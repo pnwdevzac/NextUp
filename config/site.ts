@@ -1,69 +1,48 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Zac Hartman - Full Stack Engineer",
+	description: "Story",
 	navItems: [
 		{
 			label: "Home",
 			href: "/",
 		},
+		{
+			label: "Contact",
+			href: "/contact",
+		  },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Projects",
+      href: "/projects",
     },
+
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Skills",
+      href: "/skills",
     }
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Contact",
+			href: "/contact",
 		},
 		{
 			label: "Projects",
 			href: "/projects",
 		},
 		{
-			label: "Team",
-			href: "/team",
+			label: "Skills",
+			href: "/skills",
 		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+
 	],
 	links: {
 		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
+		email: "mailto:Zbh206@gmail.com",
 		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+	
+		linkedin: "https://www.linkedin.com/in/zachary-hartman-a5550868/",
+
 	},
 };

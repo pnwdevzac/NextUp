@@ -1,0 +1,44 @@
+[
+  {
+    "era": "1960s",
+    "description": "The DEC PDP-8 released in 1965, as a minicomputer ",
+    "speed": "1 MHz",
+    "image": "pdp.jpg"
+  },
+  {
+    "era": "1970s",
+    "description": "The Altair 8800 introduced in 1974, featured an Intel 8080 processor.",
+    "speed": "2 MHz",
+    "image": "altair.jpg"
+  },
+  {
+    "era": "1980s",
+    "description": "The Commodore Amiga 1000 released in 1985, featured a Motorola 68000 processor.",
+    "speed": "7.14 MHz",
+    "image": "amiga.jpg"
+  },
+  {
+    "era": "1990s",
+    "description": "The Apple Power Macintosh 6100 from the 1990s, featured a PowerPC 601 processor.",
+    "speed": "60 MHz",
+    "image": "power.jpg"
+  },
+  {
+    "era": "2000s",
+    "description": "The Sony VAIO PCV-RXG408 from the 2000s, featured an Intel Pentium 4 processor.",
+    "speed": "2 GHz",
+    "image": "sony.jpg"
+  },
+  {
+    "era": "2010s",
+    "description": "The Dell XPS 15 from the 2010s, featured an Intel Core i7 processor.",
+    "speed": "3.8 GHz",
+    "image": "xps.jpg"
+  },
+  {
+    "era": "2020s",
+    "description": "The Apple MacBook Pro 16-inch from the 2020s, features an Intel Core i9 processor.",
+    "speed": "5.0 GHz",
+    "image": "pro.jpg"
+  }
+]

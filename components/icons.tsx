@@ -44,26 +44,26 @@ export const DiscordIcon: React.FC<IconSvgProps> = ({
 	);
 };
 
-export const TwitterIcon: React.FC<IconSvgProps> = ({
+export const LinkedinIcon: React.FC<IconSvgProps> = ({
 	size = 24,
 	width,
 	height,
 	...props
-}) => {
-	return (
-		<svg
-			height={size || height}
-			viewBox="0 0 24 24"
-			width={size || width}
-			{...props}
-		>
-			<path
-				d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
-				fill="currentColor"
-			/>
-		</svg>
-	);
-};
+}) => (
+	<svg
+	  height={size || height}
+	  viewBox="0 0 48 48"
+	  width={size || width}
+	  {...props}
+	>
+<path
+      d="M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+
 
 export const GithubIcon: React.FC<IconSvgProps> = ({
 	size = 24,
@@ -87,6 +87,57 @@ export const GithubIcon: React.FC<IconSvgProps> = ({
 		</svg>
 	);
 };
+export const InstagramIcon: React.FC<IconSvgProps> = ({
+	size = 24,
+	width,
+	height,
+	...props
+}) => (
+  <svg
+    fill="none"
+    height={size || height}
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+    <path d="M21.53 15.93c-.16-.27-.61-.69-1.73-.49a8.46 8.46 0 01-1.88.13 8.409 8.409 0 01-5.91-2.82 8.068 8.068 0 01-1.44-8.66c.44-1.01.13-1.54-.09-1.76s-.77-.55-1.83-.11a10.318 10.318 0 00-6.32 10.21 10.475 10.475 0 007.04 8.99 10 10 0 002.89.55c.16.01.32.02.48.02a10.5 10.5 0 008.47-4.27c.67-.93.49-1.519.32-1.79z" fill="currentColor"/>
+  </svg>
+);
+export const EmailIcon: React.FC<IconSvgProps> = ({
+	size = 24,
+	width,
+	height,
+	...props
+}) => (
+  <svg
+    fill="none"
+    height={size || height}
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+    <path d="M3.99 4l7.09 4.97L19 4h1.79C21.1 4 22 4.9 22 6l-.01 12c0 1.1-.89 2-1.99 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h.01z" fill="currentColor"/>
+  </svg>
+);
+
+export const PhoneIcon: React.FC<IconSvgProps> = ({
+	size = 24,
+	width,
+	height,
+	...props
+}) => (
+  <svg
+    fill="none"
+    height={size || height}
+    viewBox="0 0 512 512"
+    width={size || width}
+    {...props}
+  >
+    <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" fill="currentColor"/>
+  </svg>
+);
+
+
 
 export const MoonFilledIcon = ({
 	size = 24,
@@ -157,33 +208,7 @@ export const HeartFilledIcon = ({
 	</svg>
 );
 
-export const SearchIcon = (props: IconSvgProps) => (
-	<svg
-		aria-hidden="true"
-		fill="none"
-		focusable="false"
-		height="1em"
-		role="presentation"
-		viewBox="0 0 24 24"
-		width="1em"
-		{...props}
-	>
-		<path
-			d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-			stroke="currentColor"
-			strokeLinecap="round"
-			strokeLinejoin="round"
-			strokeWidth="2"
-		/>
-		<path
-			d="M22 22L20 20"
-			stroke="currentColor"
-			strokeLinecap="round"
-			strokeLinejoin="round"
-			strokeWidth="2"
-		/>
-	</svg>
-);
+
 
 export const NextUILogo: React.FC<IconSvgProps> = (props) => {
   const { width, height = 40 } = props;
