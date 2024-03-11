@@ -19,21 +19,20 @@ export default function SkillsPage() {
     <div style={{ textAlign: 'center' }}>
       <h1 style={{ fontSize: '3em', color: "violet" }}>Skills</h1>
       <br></br>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <ButtonGroup>
-          {Object.keys(skills).map((category, index) => (
-          <Button
-		  key={category}
-		  size="sm"
-		  color={selectedCategory === category ? "success" : (index % 2 === 0 ? "primary" : "secondary")}
-		  onClick={() => setSelectedCategory(category)}
-		>
-		  {category}
-		</Button>
-		
-          ))}
-        </ButtonGroup>
-      </div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+  {Object.keys(skills).map((category, index) => (
+    <Button
+      key={category}
+      size="sm"
+      color={selectedCategory === category ? "success" : (index % 2 === 0 ? "primary" : "secondary")}
+      onClick={() => setSelectedCategory(category)}
+      style={{ margin: '5px' }} //additional margin as needed
+    >
+      {category}
+    </Button>
+  ))}
+</div>
+
       <h2 style={{ fontSize: '2em', color: 'violet' }}>
         <strong>{selectedCategory}</strong>
       </h2>
