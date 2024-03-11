@@ -5,7 +5,6 @@ import { title } from "@/components/primitives";
 import nodemailer from 'nodemailer';
 import {
   GithubIcon,
-  DiscordIcon,
   HeartFilledIcon,
   LinkedinIcon,
   PhoneIcon,

@@ -21,7 +21,7 @@ import clsx from "clsx";
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	
-	GithubIcon,
+
 	DiscordIcon,
 	HeartFilledIcon,
 	LinkedinIcon,
@@ -79,9 +79,6 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
-					<GithubIcon className="text-default-500" />
-				</Link>
 				<ThemeSwitch />
 				<NavbarMenuToggle />
 			</NavbarContent>
@@ -109,8 +106,15 @@ export const Navbar = () => {
         </NextLink>
       </NavbarMenuItem>
     ))}
+    <Link isExternal href={siteConfig.links.email} aria-label="Email">
+      <EmailIcon className="text-default-500" />
+    </Link>
+    <Link isExternal href={siteConfig.links.linkedin} aria-label="LinkedIn">
+      <LinkedinIcon className="text-default-500" />
+    </Link>
   </div>
 </NavbarMenu>
+
 
 		</NextUINavbar>
 	);

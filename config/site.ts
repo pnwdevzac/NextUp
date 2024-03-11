@@ -38,9 +38,8 @@ export const siteConfig = {
 
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
+		github: "https://github.com/pnwdevzac/",
 		email: "mailto:Zbh206@gmail.com",
-		docs: "https://nextui.org",
 	
 		linkedin: "https://www.linkedin.com/in/zachary-hartman-a5550868/",
 
