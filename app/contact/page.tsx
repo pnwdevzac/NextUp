@@ -37,40 +37,36 @@ export default function ContactPage() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1 className={title()} style={{ color: 'cyan' }}>Contact</h1>
-      <h2 style={{ fontSize: '2em', color: 'violet' }}>
+      <h1 className={title()} style={{ color: 'cyan', marginBottom: '0.5em' }}>Contact</h1>
+      <h2 style={{ fontSize: '2em', color: 'violet', marginBottom: '1em' }}>
         Interested in working together? Write me a message below so we can collaborate.
       </h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1em' }}>
         <Input
           type="text"
           placeholder="Your name..."
           value={name}
           onChange={(e) => setName(e.target.value)}
-          style={{ marginBottom: '1em' }}
         />
         <Textarea
           placeholder="Write your message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          style={{ marginBottom: '1em' }}
           minRows={5}
           maxLength={2000}
         />
-        <Button color="primary" type="submit" style={{ marginTop: '1em' }}>Send Message</Button>
+        <Button color="primary" type="submit">Send Message</Button>
       </form>
-      <h3 style={{ fontSize: '2em', color: 'voilet' }}>Contact me directly:</h3>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <EmailIcon size={24} style={{ color:'cyan', marginRight: '5px' }} />
+      <h3 style={{ fontSize: '2em', color: 'violet', marginTop: '2em' }}>Contact me directly:</h3>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', marginBottom: '1em' }}>
+        <EmailIcon size={24} style={{ color:'cyan' }} />
         <a href="mailto:zbh206@gmail.com" style={{ color: 'cyan' }}>zbh206@gmail.com</a>
-
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <PhoneIcon size={24} style={{ color:'violet', marginRight: '5px' }} />
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px' }}>
+        <PhoneIcon size={24} style={{ color:'violet' }} />
         <a href="tel:+14255298009" style={{ color: 'violet' }}>+1 425-529-8009</a>
-
       </div>
-      
     </div>
   );
+  
 }
