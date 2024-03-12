@@ -19,7 +19,8 @@ import BlogPage from '../app/blog/page';
 				<h2 className={subtitle({ class: "mt-4" })}>
 				As a Software Engineer with a robust five-year tenure in the industry, I am deeply invested in the transformative potential of technology. My professional path has been marked by a commitment to leveraging cutting-edge tools and microservices to create web applications and backend systems that not only drive innovation but also contribute positively to our world.<br></br><br></br>
 				With a solid foundation in both academic study and two years of industry experience, complemented by a year of self-directed learning, my journey is a testament to the power of continuous growth and adaptation in the ever-evolving tech landscape.<br></br><br></br>
-				I am passionate about employing the latest technologies to address real-world challenges, believing firmly in the capacity of well-crafted software to improve lives and foster progress. My coding philosophy centers on clarity and precision, ensuring that each project I undertake is not just a testament to technical prowess but also a step towards a better future for all.
+				I am passionate about employing the latest technologies to address real-world challenges, believing firmly in the capacity of well-crafted software to improve lives and foster progress. My coding philosophy centers on clarity and precision, ensuring that each project I undertake is not just a testament to technical prowess but also a step towards a better future for all. <br></br><br></br>
+				When I’m not debugging the complexities of code, you’ll find me unplugged, recharging amidst family, friends, and the joyful company of dogs. Whether it’s a hike through nature’s splendor or a casual backyard BBQ, these moments are my sanctuary. They remind me that life, much like coding, is best enjoyed with a touch of humor and the companionship of those who make your tail wag.
 				</h2>
 			</div>
 		

@@ -24,19 +24,22 @@ export const siteConfig = {
 	],
 	navMenuItems: [
 		{
-			label: "Contact",
-			href: "/contact",
+		  label: "Home",
+		  href: "/",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+		  label: "Contact",
+		  href: "/contact",
 		},
 		{
-			label: "Skills",
-			href: "/skills",
+		  label: "Projects",
+		  href: "/projects",
 		},
-
-	],
+		{
+		  label: "Skills",
+		  href: "/skills",
+		},
+	  ],
 	links: {
 		github: "https://github.com/pnwdevzac/",
 		email: "mailto:Zbh206@gmail.com",
