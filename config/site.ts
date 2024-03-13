@@ -18,9 +18,10 @@ export const siteConfig = {
     },
 
     {
-      label: "Skills",
-      href: "/skills",
-    }
+		label: "Skills",
+		href: "/skills",
+	  },
+
 	],
 	navMenuItems: [
 		{
@@ -39,6 +40,7 @@ export const siteConfig = {
 		  label: "Skills",
 		  href: "/skills",
 		},
+	
 	  ],
 	links: {
 		github: "https://github.com/pnwdevzac/",

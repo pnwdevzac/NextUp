@@ -14,7 +14,7 @@ interface OperationTimes {
   [key: string]: string;
 }
 
-export default function BlogPage() {
+export default function HistoryPage() {
   const [animationSpeed, setAnimationSpeed] = useState<number>(0.01); // Default animation speed
   const [operationTimes, setOperationTimes] = useState<OperationTimes>({}); // State to store operation times
   const [progressBarKey, setProgressBarKey] = useState<number>(0); // Default key
